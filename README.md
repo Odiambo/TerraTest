@@ -681,7 +681,7 @@ async def get_participants(request: Request):
 | Occupancy Check | 1,000/sec | 15ms | Redis-backed |
 | Complex Report | N/A | 4.5s | 12-month analytics |
 | Concurrent Users | 4 | N/A | Sustained for 8 hours |
-* These are actual use rates for the active version for the current winter season.
+> ### These are expanded use rates for the active version for the current winter season (2026).
 ### Threat Intelligence Platform Benchmarks
 
 | Operation | Throughput | Latency (P95) | Notes |
@@ -709,7 +709,11 @@ Single PostgreSQL: 3,500 writes/sec
 + Connection Pooling: 5,200 writes/sec, 22,000 reads/sec
 + Partitioning: 7,800 writes/sec, 28,000 reads/sec
 ```
-* This scaling is assumming the use in the test cities within the test mid-western state. There are currently 12,000 known homeless adults in the test state. 
+> ### This scaling is assumming the use in the test cities within the test mid-western state. There are currently 8,300 known homeless adults (2025) and a total of 12,000 unhoused people on any given evening in the test state (2025).  Data-wise this is low intensity. It still works as a learning model do to prevalence and incidence tracking. Furthermore, human data showing disposition, migration and economic participation is vluable for subsidy wrapping and population management.
+> ### For instence, over 1.2 million citizens in the test State spend over %50 of their income on housing leaving them at risk for homelessness. It is not yet calculated how many people are cyclically homeless (people lacking an adequate place to sleep for > 30 days within a twelve month period. Or, lacking housing after a lease termination or inviction). Temporary homelessness can last up to two years (nationwide). Being out of the housing cycle also leaves people prone to poor quality housing and dispoportionate move-in cost. both of these challenges can lead to housing insecurity (cyclical homelessness) within the next 12 months. <p> Properly tracking the causes and consequenses is worth the data performance exercised in this project.</p> 
+  
+ 
+
 ---
 
 ## Deployment Architectures

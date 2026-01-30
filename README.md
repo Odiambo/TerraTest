@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 TerraTest: Data-Intensive Applications: Architecture and Implementation
+# TerraTest: Data-Intensive Applications: Architecture and Implementation
 
 ### Master Production-Grade Distributed Systems Through Real-World Projects
 
@@ -39,6 +39,7 @@
 [![Featured on Awesome](https://awesome.re/mentioned-badge.svg)](https://github.com/sindresorhus/awesome)
 [![Made with Love](https://img.shields.io/badge/Made%20with-♥-red)](https://github.com/Odiambo/TerraTest)
 
+### Social team: Review and complete all account placeholders.
 </div>
 
 

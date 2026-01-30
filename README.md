@@ -2,7 +2,7 @@
 
 # TerraTest: Data-Intensive Applications: Architecture and Implementation
 
-### Master Production-Grade Distributed Systems Through Real-World Projects
+### Master Production-Grade Systems Through Real-World Projects
 
 <!-- Primary Badges -->
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)

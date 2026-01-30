@@ -11,7 +11,6 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/Odiambo/TerraTest?style=social)](https://github.com/Odiambo/TerraTest/watchers)
 
 <!-- Build & Quality Badges -->
-[![CI/CD](https://img.shields.io/github/actions/workflow/status/Odiambo/TerraTest/ci.yml?branch=main&label=CI/CD)](https://github.com/Odiambo/TerraTest/actions)
 [![Code Quality](https://img.shields.io/codacy/grade/your-project-id?label=Code%20Quality)](https://app.codacy.com/gh/Odiambo/TerraTest)
 [![Coverage](https://img.shields.io/codecov/c/github/Odiambo/TerraTest?label=Coverage)](https://codecov.io/gh/Odiambo/TerraTest)
 [![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://odiambo.github.io/TerraTest)
@@ -91,7 +90,7 @@ Our implementations follow these foundational principles:
 - **API Gateway**: Kong for routing, rate limiting, and authentication
 
 ## Repository Structure
-
+Sky view of project scaffhold.
 ```
 TerraTest/
 ├── docs/
@@ -677,20 +676,20 @@ async def get_participants(request: Request):
 
 | Operation | Throughput | Latency (P95) | Notes |
 |-----------|-----------|---------------|-------|
-| Participant Intake | 500/sec | 120ms | Including encryption |
-| Case Updates | 1,200/sec | 80ms | Cached case worker data |
-| Occupancy Check | 5,000/sec | 15ms | Redis-backed |
+| Participant Intake | 10/hour | 120ms | Including encryption |
+| Case Updates | 1200/day | 80ms | Cached case worker data |
+| Occupancy Check | 1,000/sec | 15ms | Redis-backed |
 | Complex Report | N/A | 4.5s | 12-month analytics |
-| Concurrent Users | 2,000 | N/A | Sustained for 4 hours |
-
+| Concurrent Users | 4 | N/A | Sustained for 8 hours |
+* These are actual use rates for the active version for the current winter season.
 ### Threat Intelligence Platform Benchmarks
 
 | Operation | Throughput | Latency (P95) | Notes |
 |-----------|-----------|---------------|-------|
-| Event Ingestion | 50,000/sec | N/A | Kafka buffered |
+| Event Ingestion | 20,000/sec | N/A | Kafka buffered |
 | Threat Correlation | 12,000/sec | 450ms | ML inference included |
 | Graph Query (3-hop) | 800/sec | 280ms | Neo4j, complex patterns |
-| Time-Series Query | 200/sec | 1.8s | 90-day window, 10M events |
+| Time-Series Query | 200/sec | 1.8s | 90-day window, *estimate events |
 | Alert Processing | 1,500/sec | 95ms | Critical path optimized |
 
 ### Scalability Testing Results
@@ -710,7 +709,7 @@ Single PostgreSQL: 3,500 writes/sec
 + Connection Pooling: 5,200 writes/sec, 22,000 reads/sec
 + Partitioning: 7,800 writes/sec, 28,000 reads/sec
 ```
-
+* This scaling is assumming the use in the test cities within the test mid-western state. There are currently 12,000 known homeless adults in the test state. 
 ---
 
 ## Deployment Architectures

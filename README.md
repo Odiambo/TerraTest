@@ -893,6 +893,7 @@ perf: optimize participant search query
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
 
 ### Tools & Frameworks
+We may not use the tool per say but conceopts from design papers were used. For instance, the Apache tools and New Relic are not in the wild application tooling. 
 - **Data Pipeline**: Apache Airflow, Prefect, Dagster
 - **Stream Processing**: Apache Flink, Kafka Streams, Apache Beam
 - **Monitoring**: Prometheus, Grafana, Datadog, New Relic
@@ -900,9 +901,9 @@ perf: optimize participant search query
 - **Security**: OWASP ZAP, Snyk, Trivy
 
 ### Community
-- Join our [Discord](https://discord.gg/example) for discussions
-- Read our [blog](https://blog.example.com) for deep dives
-- Follow [@TerraTest](https://twitter.com/example) for updates
+- Join our [Discord] (TBA) for discussions
+- Read our [blog](TBA) for deep dives
+- Follow [@Odiambo](https://substack.com/@odiambo) for updates
 
 ---
 
@@ -924,4 +925,4 @@ This project incorporates patterns and practices from:
 
 **Maintainers**: @Odiambo  
 **Last Updated**: 2026-01-30  
-**Version**: 1.0.0
+**Version**: 1.5.0

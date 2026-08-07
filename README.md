@@ -38,7 +38,7 @@
 [![Featured on Awesome](https://awesome.re/mentioned-badge.svg)](https://github.com/sindresorhus/awesome)
 [![Made with Love](https://img.shields.io/badge/Made%20with-♥-red)](https://github.com/Odiambo/TerraTest)
 
-### Social team: Review and complete all account placeholders.
+
 </div>
 
 
